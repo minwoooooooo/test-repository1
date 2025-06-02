@@ -1,0 +1,1058 @@
+body{
+  background-image: url(./images/background.avif);
+  background-position: center;
+  background-size: cover;
+  padding: 0px;
+  margin: 0px;
+  height: 100vh;
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.top_banner {
+  border-radius: 7px;
+  background-color: rgb(42,46,71);
+  position: fixed;
+  width: 100vw;
+  height: 72px;
+  margin: 15px 15px;
+  display: flex;
+  font-size: 22px;
+  font-weight: 750;
+  z-index: 10;
+  opacity: 0.8;
+}
+
+.top_banner .left{
+  display: flex;
+  color: white;
+  margin: 5px;
+}
+
+.top_banner .left .left_content {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+  border-radius: 10px;
+  position: relative;
+  width: auto;
+  cursor: pointer;
+}
+
+ul{
+  list-style: none;
+  position: absolute;
+  top: 45px;
+  background-color: rgb(23,25,38);
+  border-radius: 10px;
+  left: 50%;
+  transform: translateX(-30%);
+  width: 500px;
+  font-size: 20px;
+  display: none;
+  margin-top: 30px;
+  opacity: 1;
+ }
+
+ul >li{
+  margin: 10px;
+}
+
+.content_container {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.battlenet_icon {
+  background-image: url("./images/login_icon.jpg.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30px;
+  width: 30px;
+  float: left;
+  margin-top: 8px;
+  margin-left: 5px;
+  margin-right: 12px;
+}
+
+.content_container .icon-world_of_warcraft {
+  background-image: url("./images/world_of_warcraft.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70px;
+  width: 70px;
+  float: left;
+  margin: 10px;
+}
+
+.content_container .icon-world_of_warcraft_withinwar {
+  background-image: url("./images/world_of_warcraft_withinwar.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70px;
+  width: 70px;
+  float: left;
+  margin: 10px;
+}
+
+.content_container .world-of-warcraft_pandaria {
+  background-image: url("./images/world-of-warcraft_pandaria.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70px;
+  width: 70px;
+  float: left;
+  margin: 10px;
+}
+
+.content_container .hearthstone {
+  background-image: url("./images/hearthstone.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70px;
+  width: 70px;
+  float: left;
+  margin: 10px;
+}
+
+.content_container .warcraft_rumble {
+  background-image: url("./images/warcraft_rumble.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70px;
+  width: 70px;
+  float: left;
+  margin: 10px;
+}
+
+.content_container .warcraft_remaster {
+  background-image: url("./images/warcraft_remaster.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70px;
+  width: 70px;
+  float: left;
+  margin: 10px;
+}
+
+.content_container .warcraft_remaster_II {
+  background-image: url("./images/warcraft_remaster_II.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70px;
+  width: 70px;
+  float: left;
+  margin: 10px;
+}
+
+.content_container .warcraft_reforged {
+  background-image: url("./images/warcraft_reforged.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70px;
+  width: 70px;
+  float: left;
+  margin: 10px;
+}
+
+.content_container .diablo_IV {
+  background-image: url("./images/diablo_IV.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70px;
+  width: 70px;
+  float: left;
+  margin: 10px;
+}
+
+.content_container .diablo_IV_Vessel_of_Hatred {
+  background-image: url("./images/diablo_IV.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70px;
+  width: 70px;
+  float: left;
+  margin: 10px;
+}
+
+.content_container .diablo_immortal {
+  background-image: url("./images/diablo_immortal.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70px;
+  width: 70px;
+  float: left;
+  margin: 10px;
+}
+
+.content_container .diablo_II_resurrection {
+  background-image: url("./images/diablo_II_ressurection.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70px;
+  width: 70px;
+  float: left;
+  margin: 10px;
+}
+
+.content_container .diablo_III {
+  background-image: url("./images/diablo_III.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70px;
+  width: 70px;
+  float: left;
+  margin: 10px;
+}
+
+.content_container .overwatch_2 {
+  background-image: url("./images/overwatch2.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70px;
+  width: 70px;
+  float: left;
+  margin: 10px;
+}
+
+.content_container .starcraft_2 {
+  background-image: url("./images/starcraft_2.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70px;
+  width: 70px;
+  float: left;
+  margin: 10px;
+}
+
+.content_container .starcraft_remaster {
+  background-image: url("./images/starcraft_remaster.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70px;
+  width: 70px;
+  float: left;
+  margin: 10px;
+}
+
+.content_container .heroes_of_the_storm {
+  background-image: url("./images/heroes_of_the_storm.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70px;
+  width: 70px;
+  float: left;
+  margin: 10px;
+}
+
+.content_container_right .info {
+  background-image: url("./images/info.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 35px;
+  width: 35px;
+  float: left;
+  margin: 10px;
+}
+
+.content_container_right .news {
+  background-image: url("./images/news.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 35px;
+  width: 35px;
+  float: left;
+  margin: 10px;
+}
+
+.content_container_right .blizzcon {
+  background-image: url("./images/blizzcon.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 35px;
+  width: 35px;
+  float: left;
+  margin: 10px;
+}
+
+.content_container_right .recruitment {
+  background-image: url("./images/recruitment.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 35px;
+  width: 35px;
+  float: left;
+  margin: 10px;
+}
+
+.content_container_right .goods {
+  background-image: url("./images/goods.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 35px;
+  width: 35px;
+  float: left;
+  margin: 10px;
+}
+
+.content_container_right .log_in {
+  background-image: url("./images/login_icon.jpg.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 35px;
+  width: 35px;
+  float: left;
+  margin: 10px;
+}
+
+.content_container_right .manage_account {
+  background-image: url("./images/manage_account.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 35px;
+  width: 35px;
+  float: left;
+  margin: 10px;
+}
+
+.content_container_right .free_sign_in {
+  background-image: url("./images/free_sign_in.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 35px;
+  width: 35px;
+  float: left;
+  margin: 10px;
+}
+
+.content_container_right .user_support {
+  background-image: url("./images/user_support.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 35px;
+  width: 35px;
+  float: left;
+  margin: 10px;
+}
+
+.content_container_right .shop {
+  background-image: url("./images/shop.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 35px;
+  width: 35px;
+  float: left;
+  margin: 10px;
+}
+
+.content_container_right .battlenet_download {
+  background-image: url("./images/battlenet_download.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 35px;
+  width: 35px;
+  float: left;
+  margin: 10px;
+}
+
+
+.right_list{
+  list-style: none;
+  position: absolute;
+  top: 45px;
+  background-color: rgb(23,25,38);
+  border-radius: 10px;
+  transform: translateX(-45%);
+  width: 300px;
+  font-size: 20px;
+  display: none;
+  margin-top: 30px;
+  opacity: 1;
+ }
+
+ul .right_list .li{
+  margin: 10px;
+}
+
+.content_container_right {
+  display: flex;
+  border-radius: 10px;
+  align-items: center;
+  width: 250px;
+  margin: 10px;
+}
+
+.content_container .game_field {
+  height: auto;
+  width: auto;
+}
+
+.content_container .game_text {
+  margin: 10px;
+  font-size: 19px;
+  font-weight: 750;
+}
+
+.content_container .field{
+  margin: 10px;
+  font-size: 14px;
+  color: lightgray;
+}
+
+
+.top_banner .left .left_content:nth-child(1) {
+  background-image: url(./images/blizzard_logo.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 56px;
+  width: 80px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.left_content:hover { 
+  background-color: rgb(48,50,66);
+}
+
+.left_content:hover ul{
+  display: block;
+}
+
+
+@keyframes fade-in-top {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(-50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.left_content .content_container:hover { 
+  background-color: rgb(48,50,66);
+}
+
+.right_content:hover { 
+  background-color: rgb(48,50,66);
+}
+
+.right_content:hover ul{
+  display: block;
+  animation-name: fade-in-top;
+  animation-duration: 0.1s;
+}
+
+
+.right_content .content_container_right:hover { 
+  background-color: rgb(48,50,66);
+}
+
+.top_banner .left .left_content:nth-child(6) {
+  background-color: rgb(80,96,108);
+  width: 55px;
+  border-radius: 8px;
+}
+
+.top_banner .right {
+  display: flex;
+  color: white;
+  margin: 5px 50px;
+  margin-left: auto;
+}
+
+.top_banner .right .right_content {
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+  cursor: pointer;
+  position: relative;
+}
+
+#login_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(9,116,224);
+  border-radius: 10px;
+  width: 250px;
+}
+
+.right_content_1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.top_banner .right .right_content:nth-child(4) {
+  background-color: black;
+  border-radius: 6px;
+  padding: 0px 20px
+}
+
+.inner {
+  margin: 0 auto;
+  width: 1600px;
+  height: 4100px;
+}
+
+.inner .top{
+  height: 720px;
+  background-image: url(./images/OW2_S16_SF6_BLIZZWEB_Banner_Desktop_1600x720.webp);
+  background-repeat: no-repeat;
+  margin: 0px 10px 10px 10px; 
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.inner .top .top_container {
+  position: absolute;
+
+  margin-left: 100px;
+  color: white;
+  width: 900px;
+}
+
+.inner .top .top_container .collabo_image {
+  background-image: url(./images/over_street.PNG);
+  height: 160px;
+  width: 440px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.inner .top .top_container .event_text1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin: 10px 0px;
+  text-shadow: 0px 1px 0.5px black;
+}
+
+.inner .top .top_container .event_text2 {
+  font-size: 26px;
+  font-weight: 550;
+  margin: 10px 0px;
+  opacity: 0.7;
+  text-shadow: 0px 1px 0.5px black;
+}
+
+.inner .top .top_container .button_container {
+  width: 400px;
+  height: 85px;
+  margin: 30px 0px 0px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner .top .top_container .button_container .search_box {
+  font-size: 25px;
+  font-weight: 600;
+  height: 80px;
+  width: 300px;
+  border-radius: 40px;
+  background-color: rgb(2,156,233);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  text-shadow: 0px 1px 0.5px black;
+}
+
+.inner .top .top_container .button_container .buy_box {
+  font-size: 25px;
+  font-weight: 600;
+  height: 80px;
+  width: 300px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  text-shadow: 0px 1px 0.5px black;
+}
+
+.inner .top .top_container .button_container .search_box:hover {
+  border: 0.5px solid white;
+}
+
+.inner .top .top_container .button_container .buy_box:hover {
+  border: 0.5px solid white;
+}
+
+.inner .game_choose{
+  height: 100px;
+  color: white;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.inner .game_choose .recommend{
+  font-size: 35px;
+  font-weight: 550;
+  margin: 10px;
+}
+
+.inner .game_choose .pc{
+  font-size: 20px;
+  background-color: rgb(32,59,89);
+  border-radius: 15px;
+  width: 70px;
+  height: 30px;
+  margin-right: 15px;
+  text-align: center;
+  line-height: 30px;
+  margin-left: auto;
+}
+
+.inner .game_choose .console{
+  font-size: 20px;
+  background-color: rgb(32,59,89);
+  border-radius: 15px;
+  width: 70px;
+  height: 30px;
+  margin-right: 15px;
+  text-align: center;
+  justify-content: flex-end;
+}
+
+.inner .game_choose .mobile{
+  font-size: 20px;
+  background-color: rgb(32,59,89);
+  border-radius: 15px;
+  width: 70px;
+  height: 30px;
+  margin-right: 15px;
+  text-align: center;
+}
+
+.inner .main_game{
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.inner .main_game .main_game_container {
+
+  display: block;
+  margin: 5px;
+}
+
+.inner .main_game .main_game_container .video_war_pandaria {
+  height: 400px;
+  width: 300px;
+
+  background-image: url("./images/video/world-of-warcraft_pandaria_video.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 5px;
+  transition: all 0.15s linear; 
+}
+
+.inner .main_game .main_game_container .video_war1_remaster {
+  height: 400px;
+  width: 300px;
+
+  background-image: url("./images/video/warcraft_remaster_video.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 5px;
+  transition: all 0.15s linear; 
+}
+
+.inner .main_game .main_game_container .video_war2_remaster {
+  height: 400px;
+  width: 300px;
+  
+  background-image: url("./images/video/warcraft_II_remaster_video.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 5px;
+  transition: all 0.15s linear; 
+}
+
+.inner .main_game .main_game_container .video_war3_remaster {
+  height: 400px;
+  width: 300px;
+  
+  background-image: url("./images/video/warcraft_III_reforged_video.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 5px;
+  transition: all 0.15s linear; 
+}
+
+.inner .main_game .main_game_container .video_diablo_vessel_of_hatred {
+  height: 400px;
+  width: 300px;
+  
+  background-image: url("./images/video/diablo_vessel_of_harted.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 5px;
+  transition: all 0.15s linear; 
+}
+
+.inner .main_game .main_game_container .video_war_within {
+  height: 400px;
+  width: 300px;
+  
+  background-image: url("./images/video/warcraft_warwithin_video.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 5px;
+  transition: all 0.15s linear; 
+}
+
+.inner .main_game .main_game_container .video_warcraft_rumble {
+  height: 400px;
+  width: 300px;
+  
+  background-image: url("./images/video/warcraft_rumble_video.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 5px;
+  transition: all 0.15s linear; 
+}
+
+.inner .main_game .main_game_container .video_world_of_warcraft {
+  height: 400px;
+  width: 300px;
+  
+  background-image: url("./images/video/wow_video.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 5px;
+  transition: all 0.15s linear; 
+}
+
+.inner .main_game .main_game_container .video_overwatch2 {
+  height: 400px;
+  width: 300px;
+  
+  background-image: url("./images/video/overwatch2_video.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 5px;
+  transition: all 0.15s linear; 
+}
+
+.inner .main_game .main_game_container .video_hearthstone {
+  height: 400px;
+  width: 300px;
+  
+  background-image: url("./images/video/hearthstone_video.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 5px;
+  transition: all 0.15s linear; 
+}
+
+.inner .main_game .main_game_container .main_game_text {
+  height: 60px;
+  width: 300px;
+  margin: 5px;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+
+}
+
+.inner .main_game .main_game_container .main_game_field {
+  height: 30px;
+  width: 300px;
+  
+  margin: 5px;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.inner .main_game .main_game_container .support {
+  height: 50px;
+  width: 300px;
+  
+  margin: 5px;
+}
+
+img {
+  height: 27px;
+  width: 27px;
+  margin-right: 5px;
+}
+
+.inner .main_game .main_game_container .video_war_pandaria:hover {
+  transform: scale(1.1);
+}
+.inner .main_game .main_game_container .video_war1_remaster:hover {
+  transform: scale(1.1);
+}
+.inner .main_game .main_game_container .video_war2_remaster:hover {
+  transform: scale(1.1);
+}
+.inner .main_game .main_game_container .video_war3_remaster:hover {
+  transform: scale(1.1);
+}
+.inner .main_game .main_game_container .video_diablo_vessel_of_hatred:hover {
+  transform: scale(1.1);
+}
+.inner .main_game .main_game_container .video_war_within:hover {
+  transform: scale(1.1);
+}
+.inner .main_game .main_game_container .video_warcraft_rumble:hover {
+  transform: scale(1.1);
+}
+.inner .main_game .main_game_container .video_world_of_warcraft:hover {
+  transform: scale(1.1);
+}
+.inner .main_game .main_game_container .video_overwatch2:hover {
+  transform: scale(1.1);
+}
+.inner .main_game .main_game_container .video_hearthstone:hover {
+  transform: scale(1.1);
+}
+
+
+
+.inner .all_games{
+  
+  display: flex;
+  height: 180px;
+  color: white;
+  margin: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner .all_games .view_all {
+  height: 80px;
+  width: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(20,130,220);
+  border-radius: 50px;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.inner .download{
+  color: white;
+  box-sizing: border-box;
+  height: 650px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner .download .download_banner{
+  background-image: url("./images/download_banner.PNG");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 780px;
+  width: 1600px;
+}
+
+.inner .footer {
+  color: white;
+  margin: 10px;
+  height: 500px;
+  left: 0;
+  flex-wrap: no-wrap;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner .footer .footer_top {
+  border-bottom: 2px solid gray;
+  color: white;
+  width: 1400px;
+  height: 100px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.inner .footer .footer_top .news {
+  color: white;
+  margin: 10px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.inner .footer .footer_top .news:nth-child(9) {
+  margin-left: auto;
+}
+
+
+
+.inner .footer .footer_center {
+  color: white;
+  width: 1400px;
+  height: 200px;
+  margin: 10px;
+  display: flex;
+}
+
+.inner .footer .footer_center .logo{
+  color: white;
+  width: 254px;
+  margin: 5px;
+  background-image: url(./images/blizzard_logo.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.inner .footer .footer_center .terms{
+  color: white;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+}
+
+.inner .footer .footer_center .terms .terms_top{
+
+  color: white;
+  font-size: 13px;
+  margin: 5px;
+  width: 900px;
+}
+
+.inner .footer .footer_center .terms .terms_container{
+  margin: 5px;
+  display: flex;
+}
+
+.inner .footer .footer_center .terms .terms_bottom {
+  color: white;
+  margin: 5px;
+  font-size: 13px;
+  width: auto;
+}
+
+.inner .footer .footer_center .icons{
+  color: white;
+  width: 254px;
+  margin: 5px;
+  margin-left: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner .footer .footer_center .icons .icon{
+  border-radius: 20px;
+  height: 30px;
+  width: 30px;
+  margin: 5px;
+
+}
+.inner .footer .footer_bottom {
+  color: white;
+  width: 1400px;
+  height: auto;
+  margin: 5px;
+}
+
+.inner .footer .icons .icon:nth-child(1) {
+  background-image: url(./images/X.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.inner .footer .icons .icon:nth-child(2) {
+  background-image: url(./images/facebook.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.inner .footer .icons .icon:nth-child(3) {
+  background-image: url(./images/reddit.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.inner .footer .icons .icon:nth-child(4) {
+  background-image: url(./images/instagram.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.inner .footer .icons .icon:nth-child(5) {
+  background-image: url(./images/youtube.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
